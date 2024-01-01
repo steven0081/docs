@@ -5,9 +5,7 @@ owner for the MAIL FROM address (`From:` header), but the client is not (SASL)
 logged in as that MAIL FROM address owner; or when the client is (SASL) logged
 in, but the client login name doesn't own the MAIL FROM address.
 
-Sometimes we do need to send email as another user, this tutorial describes
-how to allow certain users to do this with iRedAPD plugin
-`reject_sender_login_mismatch`.
+有时候我们确实需要作为谋个人来发送邮件，接下来的指南将会说明使用iRedAPD plugin插件的`reject_sender_login_mismatch`.来实现这个功能。
 
 * Remove restriction rule `reject_sender_login_mismatch` from Postfix
   parameter `smtpd_sender_restrictions` in file `/etc/postfix/main.cf`. Our iRedAPD
