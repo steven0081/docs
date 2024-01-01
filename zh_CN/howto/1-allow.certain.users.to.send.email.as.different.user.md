@@ -33,6 +33,7 @@ plugins = ['reject_sender_login_mismatch', ...]
 ALLOWED_LOGIN_MISMATCH_SENDERS = ['user1@here.com', 'user2@here.com']
 ```
 
-    NOTE: this parameter does not present by default, please add it manually.
+    注意: 这个参数默认是不提供，请手动添加。
+
 
 Restart iRedAPD service. That's all.
